@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "building_search"
+version = "0.0.1"
+authors = [
+  { name="Isaac Cowhey", email="isaac.cowhey@gmail.com" },
+  { name="Linnea May", email="linnealovespie@gmail.com"},
+]
+description = "A package for finding Seattle building owners"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BenBagBag/building_search"
